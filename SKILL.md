@@ -12,7 +12,7 @@ CLI tool for autonomous application development using **Spec-Driven Development 
 
 **Goal:** Deliver a working test environment with URL and test accounts for user testing.
 
-**Execution:** Long-running task - run via OpenClaw or subagent in background. Run silently, notify user ONLY upon completion with deliverables (test environment URL + test accounts). No timeout. Continue until completion.
+**Execution:** Long-running task - run via OpenClaw subagent in background. Run silently, notify user ONLY upon completion with deliverables (test environment URL + test accounts). No timeout. Continue until completion.
 
 ## Tech Stack
 
