@@ -2,8 +2,8 @@
 id: SKILL
 aliases: []
 tags: []
-description: Use this skill for application development with Claude Code, Spec-Driven Development (SDD), TypeScript+Bun stack (React, TailwindCSS, Elysia.js, Prisma), AWS CodeCommit, AWS CDK test environments, and Playwright MCP testing. STRICT SDD ENFORCEMENT: Must follow the full /speckit workflow in order — constitution → specify → clarify → plan → tasks → implement. NO step skipping. Execute via subagent — run silently in background, notify user ONLY upon completion with deliverables (URL + test accounts). Triggers when users ask about building applications, spec-kit workflow, Bun/React/Elysia development, AWS CodeCommit, AWS CDK/serverless, or Playwright testing. AI proceeds autonomously except during /speckit.clarify when user clarification is required. This is a long-running skill - execute via OpenClaw or subagent without timeout.
-name: claude-code-app-development
+description: "Use this skill for application development with Claude Code, Spec-Driven Development (SDD), TypeScript+Bun stack (React, TailwindCSS, Elysia.js, Prisma), AWS CodeCommit, AWS CDK test environments, and Playwright MCP testing. STRICT SDD ENFORCEMENT: Must follow the full /speckit workflow in order — constitution → specify → clarify → plan → tasks → implement. NO step skipping. Execute via subagent — run silently in background, notify user ONLY upon completion with deliverables (URL + test accounts). Triggers when users ask about building applications, spec-kit workflow, Bun/React/Elysia development, AWS CodeCommit, AWS CDK/serverless, or Playwright testing. AI proceeds autonomously except during /speckit.clarify when user clarification is required. This is a long-running skill - execute via OpenClaw or subagent without timeout."
+name: dev_agent
 ---
 
 # Claude Code Application Development
