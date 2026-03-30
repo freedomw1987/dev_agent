@@ -57,7 +57,7 @@ aws codecommit create-repository --repository-name <PROJECT_NAME> --repository-d
 
 # 4. Initialize project
 specify init <PROJECT_NAME> --ai claude --no-git
-cd <PROJECT_NAME>
+cd <PROJECT_NAME> # Enter project directory
 git init
 git remote add origin https://git-codecommit.us-east-1.amazonaws.com/v1/repos/<PROJECT_NAME>
 git add . && git commit -m "Initial commit" && git push -u origin main
